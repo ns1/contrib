@@ -25,5 +25,5 @@ See also https://nsone.net/api/
 
    Example screenshot:
 
-   ![DDNS](https://github.com/nsone/contrib/tree/master/dynamic_dns/ddns-with-dd-wrt-and-ddns-php.png "DDNS")
+   ![DDNS](https://raw.githubusercontent.com/nsone/contrib/master/dynamic_dns/ddns-with-dd-wrt-and-ddns-php.png "DDNS")
 
