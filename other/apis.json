@@ -1,0 +1,33 @@
+{
+  "name": "NSONE",
+  "description": "NSONE data driven DNS and global traffic management platform",
+  "url": "http://nsone.net/",
+  "image": "https://nsone.global.ssl.fastly.net/wp-content/themes/nsone/images/nsone-logo-big.png",
+  "specificationVersion": "0.14",
+  "apis": [
+    {
+      "name": "NSONE REST API",
+      "description": "Full access to the NSONE platform",
+      "baseURL": "https://api.nsone.net/",
+      "humanURL": "https://nsone.net/api/",
+      "tags": []
+    }
+  ],
+  "maintainers": [
+    {
+      "FN": "Development Team",
+      "email": "support@nsone.net",
+      "organizationName": "NSONE Inc.",
+      "X-twitter": "https://twitter.com/nsoneinc",
+      "X-github": "https://github.com/nsone/"
+    }
+  ],
+  "tags": [
+    "dns",
+    "domain",
+    "stack"
+  ],
+  "include": [],
+  "created": "2014-11-20",
+  "modified": "2014-11-20"
+}
