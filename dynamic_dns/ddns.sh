@@ -44,7 +44,7 @@ function check_ip()
 }
 
 IPDATA=`/sbin/ifconfig $IFACE | egrep "^[[:space:]]+inet addr:"`
-if [ -z $IPDATA ]; then
+if [ -z "${IPDATA}" ]; then
   IPDATA=`/sbin/ifconfig $IFACE | egrep "^[[:space:]]+inet "`
 fi
 IPADDR=`echo $IPDATA | awk {'print $2'} | cut -d : -f 2`
