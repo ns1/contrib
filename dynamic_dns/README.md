@@ -12,3 +12,12 @@ See also https://nsone.net/api/
    Update based on local ethernet interface address (linux/unix).
    Uses curl. 
 
+* ubntDynDns.py
+
+   Created for Ubiquiti EdgeRouter devices, but it should run on most Linux based platforms.
+   Intentionally lightweight with minimal dependencies for embedded / IoT applications.
+   To use, schedule execution of the script periodically via cron (or your scheduler of choice).
+
+   For example:
+
+   `*/5 * * * * ns1apikey mydomain.net myhost.mydomain.net`
