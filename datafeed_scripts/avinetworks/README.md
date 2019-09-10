@@ -7,10 +7,7 @@ The ControlScripts in this directory allow for Alerts triggered within Avi Vanta
 
 # Installation
 
-1. Install the [ns1-python](https://github.com/ns1/ns1-python) SDK on all Avi Vantage Controllers.  This can be installed via pip:
-```
-pip install ns1-python
-```
+1. Install the [ns1-python](https://github.com/ns1/ns1-python) SDK on all Avi Vantage Controllers.  This can be installed via pip: `pip install ns1-python`
 
 1. In Avi Vantage, create a new **Alert Action** in **Operations > Alert > Alert Action**
 
