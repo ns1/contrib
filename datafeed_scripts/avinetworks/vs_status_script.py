@@ -23,7 +23,7 @@ ns1_apikey = "qACMD09OJXBxT7XOuRs8"
 ns1_endpoint = "api.nsone.net"
 
 
-def _init_api():
+def init_api():
     """
     Inititialize NS1 SDK
 
@@ -35,7 +35,7 @@ def _init_api():
     return NS1(config=config)
 
 
-def _update_datafeed(api, alert_info):
+def update_datafeed(api, alert_info):
     """
     Update `UP` metadata via datafeed
 
@@ -57,7 +57,7 @@ def _update_datafeed(api, alert_info):
         source_api.publish(datasource_id, data)
 
 
-def _main():
+def main():
     if not datasource_id:
         raise Exception("datasource_id is undefined")
     if not ns1_apikey:
@@ -73,9 +73,9 @@ def _main():
     )
     parsed = parser.parse_args()
 
-    api = _init_api()
-    _update_datafeed(api, json.loads(parsed.alert_info))
+    api = init_api()
+    update_datafeed(api, json.loads(parsed.alert_info))
 
 
 if __name__ == "__main__":
-    _main()
+    main()
