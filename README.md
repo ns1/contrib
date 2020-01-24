@@ -9,4 +9,4 @@ Contributed scripts useful for integrating with NSONE
 * dynamic_dns - scripts for updating dynamic DNS records, e.g. from a laptop or router
 * other - interesting and useful miscellaneous integrations
 
-Please refer to the [NS1 Contribution Guidelines](https://github.com/ns1/community) before opening a pull request or issue.
+Pull Requests and issues are welcome. See the [NS1 Contribution Guidelines](https://github.com/ns1/community) for more information.
