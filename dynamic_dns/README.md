@@ -21,3 +21,8 @@ See also https://nsone.net/api/
    For example:
 
    `*/5 * * * * ns1apikey mydomain.net myhost.mydomain.net`
+
+* ipupdater (Python3)
+
+   Update based on your public ip fetched via https://www.ipify.org/.
+   Systemd is used to daemonize the script: https://github.com/josvo/ipupdater
